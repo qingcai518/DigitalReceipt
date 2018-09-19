@@ -22,6 +22,7 @@ type Receipt struct {
 func GetAllReceipts() []Receipt {
 	o := orm.NewOrm()
 	var receipts []Receipt
+	println("2222222")
 	o.Raw("select * from receipt").QueryRows(&receipts)
 	return receipts
 }
