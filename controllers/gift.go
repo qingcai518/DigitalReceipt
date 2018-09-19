@@ -2,6 +2,7 @@ package controllers
 
 import (
 	"digitalReceipt/models"
+
 	"github.com/astaxie/beego"
 )
 
@@ -15,6 +16,7 @@ type GiftController struct {
 // @Success 200 {object} models.Gift
 // @router / [get]
 func (g * GiftController) GetAll() {
+	println("1111111")
 	gifts := models.GetAllGifts()
 	g.Data["json"] = gifts
 	g.ServeJSON()

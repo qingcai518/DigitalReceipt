@@ -35,6 +35,11 @@ func init() {
 				&controllers.ReceiptController{},
 			),
 		),
+		beego.NSNamespace("/item",
+			beego.NSInclude(
+				&controllers.ItemController{},
+			),
+		),
 	)
 	beego.AddNamespace(ns)
 }

@@ -48,22 +48,6 @@ func GetAllUsers() map[string]User {
 	return users
 }
 
-//func GetAllUsers() map[string]*User {
-//	o := orm.NewOrm()
-//	users := make(map[string]*User)
-//
-//	qs, error := o.QueryTable("user").All(&users)
-//
-//	if error != nil {
-//		println(error)
-//	}
-//
-//	println(qs)
-//	println(users)
-//
-//	return users
-//}
-
 func UpdateUser(uid string, uu *User) (a *User, err error) {
 	if u, ok := UserList[uid]; ok {
 		if uu.Name != "" {
