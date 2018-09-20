@@ -20,7 +20,14 @@ type Item struct {
 func GetAllItems(receiptId int) []Item {
 	o := orm.NewOrm()
 	var items []Item
+
+	println("1111111")
+	println(receiptId)
+
 	o.Raw("select * from item where receipt_id = ?", receiptId).QueryRows(&items)
+
+	println(len(items))
+
 	return items
 }
 

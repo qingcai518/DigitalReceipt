@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c088d9-496c-4f73-a55b-789bec8cad5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/controllers/item.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/item.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/item.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/item.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,17 +37,21 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="38" />
-          <entry key="go" value="421" />
+          <entry key="go" value="502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="421" />
+          <entry key="Go" value="502" />
           <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.go.postfix.template.usages.trigger" />
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".len" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
@@ -113,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/item.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="390">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -131,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/item.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -168,8 +172,8 @@
       <find>created_at</find>
       <find>update_at</find>
       <find>receipt_id</find>
-      <find>receiptId</find>
       <find>id</find>
+      <find>receiptId</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.10.3/libexec" />
@@ -187,6 +191,7 @@
         <option value="$PROJECT_DIR$/models/receipt.go" />
         <option value="$PROJECT_DIR$/models/models.go" />
         <option value="$PROJECT_DIR$/controllers/item.go" />
+        <option value="$PROJECT_DIR$/models/item.go" />
       </list>
     </option>
   </component>
@@ -382,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/item.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -401,8 +399,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/item.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="270">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/item.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
