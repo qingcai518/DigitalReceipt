@@ -15,9 +15,14 @@ type ItemController struct {
 // @Description get all Receipts
 // @Success 200 {object} models.Receipt
 // @router / [get]
-func (controller *ItemController) GetAll(receiptId int) {
-	items := models.GetAllItems(receiptId)
-	controller.Data["json"] = items
+func (controller *ItemController) GetAll() {
+	receiptId, err := controller.GetInt("receipt_id")
+	if err != nil {
+		controller.Data["json"] = err.Error()
+	} else {
+		items := models.GetAllItems(receiptId)
+		controller.Data["json"] = items
+	}
 	controller.ServeJSON()
 }
 
