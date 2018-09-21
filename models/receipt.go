@@ -15,6 +15,7 @@ type Receipt struct {
 	TotalPrice float64 `orm:"column(total_price)"`
 	AdjustPrice float64 `orm:"column(adjust_price)"`
 	ImagePath string `orm:"column(image_path)"`
+	Hash string `orm:"column(hash)"`
 	CreatedAt string `orm:"column(created_at)"`
 	UpdateAt string `orm:"column(update_at)"`
 }
